@@ -1,5 +1,5 @@
-Adjacent XOR 
-Problem statement
+#Adjacent XOR
+##Problem statement
 You are given an integer input num.
 Write a program to perform the following operations
 1. Obtain Z by converting num to Binary form.
