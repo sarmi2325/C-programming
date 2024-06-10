@@ -1,17 +1,20 @@
 # Adjacent XOR
-## Problem statement
-You are given an integer input num.
-Write a program to perform the following operations
-1. Obtain Z by converting num to Binary form.
-2. For each bit A in Z, apply bitwise XOR operation with the adjacent bit present on its right, starting from the Most Significant Bit (MSB), 
-store the obtained value back in bit A. Let the new binary number obtained by performing these operations be Y.
+
+## Problem Statement
+You are given an integer input `num`.
+Write a program to perform the following operations:
+1. Obtain Z by converting `num` to Binary form.
+2. For each bit A in Z, apply bitwise XOR operation with the adjacent bit present on its right, starting from the Most Significant Bit (MSB), store the obtained value back in bit A. Let the new binary number obtained by performing these operations be Y.
 3. Obtain X by converting Y to a Decimal form.
-Your task is to return the value of x.
+Your task is to return the value of X.
 [NOTE - Apply bitwise XOR operation of the Least Significant Bit (LSB) with 1 in Z].
-Example 1
-Input 
+
+### Example 1
+**Input**
+
 013
-Output
+**Output**
+
 6
 
 
@@ -48,4 +51,4 @@ int main(){
     scanf("%d",&n);
     printf("%d",fn(n));
     return 0;
-}```
+}
