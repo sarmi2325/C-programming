@@ -1,6 +1,7 @@
-# Adjacent XOR
+Adjacent XOR
 
-## Problem Statement
+/*Problem Statement
+
 You are given an integer input `num`.
 Write a program to perform the following operations:
 1. Obtain Z by converting `num` to Binary form.
@@ -9,18 +10,15 @@ Write a program to perform the following operations:
 Your task is to return the value of X.
 [NOTE - Apply bitwise XOR operation of the Least Significant Bit (LSB) with 1 in Z].
 
-### Example 1
-**Input**
-
+Example 1
+Input
 013
-**Output**
-
+Output
 6
+*/
 
+CODE:
 
-**CODE:**
-
-```c
 #include<stdio.h>
 #include<math.h>
 int fn(int n){
