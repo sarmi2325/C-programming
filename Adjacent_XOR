@@ -1,5 +1,5 @@
-#Adjacent XOR
-##Problem statement
+# Adjacent XOR
+## Problem statement
 You are given an integer input num.
 Write a program to perform the following operations
 1. Obtain Z by converting num to Binary form.
@@ -15,8 +15,9 @@ Output
 6
 
 
-CODE:
+**CODE:**
 
+```c
 #include<stdio.h>
 #include<math.h>
 int fn(int n){
@@ -47,4 +48,4 @@ int main(){
     scanf("%d",&n);
     printf("%d",fn(n));
     return 0;
-}
+}```
