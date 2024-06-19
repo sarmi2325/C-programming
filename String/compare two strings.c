@@ -18,11 +18,16 @@ int main() {
     scanf("%s %s",str,str1);
     int len=strlen(str);
     int len1=strlen(str1);
+    if(len==len1){
     for(int i=0;i<len;i++){
         if(str[i]!=str1[i]){
             flag=1;
             break;
         }
+    }
+    }
+    else{
+        flag=1;
     }
     if(flag==1){
         printf("Strings not same");
