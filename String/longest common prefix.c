@@ -32,7 +32,7 @@ int main(){
     for(int i=0;i<n;i++){
         str[i]=(char*)malloc(100*sizeof(char));
         fgets(str[i],100,stdin);
-        str[i][strcspn(str[i], "\n")] = '\0';
+        
     }
     char *result=fn(str,n);
     printf("%s",result);
